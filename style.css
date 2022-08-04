@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-1 {
+    height: 100%;
+}
+
+.col-1 img {
+    height: 100%;
+}
+
+.col-2 {
+    padding: 3% 4%;
+    flex-grow: 1;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 16px;
+    font-size: 32px;
+    color: #BCD150;
+}
+
+h2 {
+    font-size: 24px;
+    color: #BCD150;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p,
+ul {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.col-2 .register {
+    padding: 10px 0;
+}
+
+.col-2 a {
+    color: #000;
+    font-weight: 800;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #BCD150;
+    padding: 15px 50px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+
+    .col-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-2 {
+        padding: 10%;
+        flex-grow: 1;
+        background-color: #000;
+        color: #fff;
+        line-height: 1.5;
+        display: block;
+    }
+
+    h1 {
+        margin-top: 24px;
+        font-size: 16px;
+        color: #BCD150;
+        margin-bottom: 12px;
+    }
+
+    h2 {
+        font-size: 14px;
+        color: #BCD150;
+        margin-bottom: 12px;
+    }
+
+    h3 {
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    p,
+    ul {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    .col-2 .register {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .col-2 a {
+        color: #000;
+        font-weight: 800;
+        display: inline-block;
+        text-decoration: none;
+        background-color: #BCD150;
+        padding: 15px 50px;
+        letter-spacing: 1px;
+        border-radius: 7px;
+    }
+}
